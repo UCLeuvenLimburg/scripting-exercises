@@ -17,7 +17,7 @@ You will have to split up the task at hand in smaller pieces,
 implement helper functions, check them, etc.
 
 We do not care *how* you solve the problem. You are free
-to use all of the functionality Python provides. It is not our
+to use all of the functionalities Python provides. It is not our
 goal to have you write complex algorithms. So, please
 do not write your own `sum` function, use the built-in one.
 You will see that Python has *a lot* of built-in functions
