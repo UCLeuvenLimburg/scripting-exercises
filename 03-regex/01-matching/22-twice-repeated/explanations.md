@@ -18,7 +18,7 @@ Backreferences allow you to express the second step as follows:
 * First, you need to express the first character is important, that it needs to be 'remembered'. You achieve this by putting this pattern between parentheses. In our case, this leads to `(.)`
 * In order to refer to whatever matches with `(.)`, you use a backreference `\1`.
 
-This gives you `(.)\1` as regex. However, there's still a small annoying issue you need to deal with.
+This gives you `(.)\1` as regex. However, there's still one small annoying issue you need to deal with.
 
 ## Raw Strings
 
