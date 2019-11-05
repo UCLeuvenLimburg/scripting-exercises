@@ -28,7 +28,7 @@ delimiters, use `"""..."""`.
 ## String-Related Functionality
 
 Typically, a multiline string will appear inside a function.
-Python's syntax rules require a function's body to be indented.
+Python's syntax rules requires a function's body to be indented.
 It makes sense that the contents of the string are also indented:
 
 ```python
