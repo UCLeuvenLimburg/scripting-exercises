@@ -36,7 +36,7 @@ For example, consider the regex `a`. In Python, `re.fullmatch('a', string)`
 only returns a truthy value if `string` equals `a`, because `fullmatch`
 requires the *entire* string to be described. In other words, `re.fullmatch('a', 'bab')` is not a match.
 
-In the other languages, however, matching the regex `a` with the string `bab` will succeed since the regex will be interpreted as "There is a substring of `bab` that matches the regex `a`." It is important you are aware of this distinction to avoid unpleasant surprises in the future.
+In the other languages, however, matching the regex `a` with the string `bab` will succeed since the regex will be interpreted as "There is a substring of `bab` that matches the regex `a`." It is important that you are aware of this distinction to avoid unpleasant surprises in the future.
 
 Now, is there a way to make Python behave like the other languages? There sure is!
 Simply use `re.search` instead of `re.fullmatch`. In essence, `re.search(regex, string)` is the same as `re.fullmatch('.*regex.*', string)`.
