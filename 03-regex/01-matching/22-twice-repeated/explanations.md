@@ -63,7 +63,7 @@ the string is 5 characters long.
 backslash, you can use `\\`. You can also refer to symbols using their
 [ASCII code](http://www.asciitable.com/), e.g. `\42`.
 
-The newline character has decimal code 10. You might expect `\10` to be synonymous with `\n`, but that would of course be too simple: instead, the `\10` is interpreted
+The newline character has decimal code 10. You might expect `\10` to be synonymous with `\n`, but of course that would be too simple: instead, the `\10` is interpreted
 as an *octal* value, not decimal. 10 in octal is 12, so `\12` corresponds to the newline character. You can verify this in the Python shell:
 
 ```python
