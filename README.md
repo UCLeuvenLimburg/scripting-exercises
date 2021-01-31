@@ -1,5 +1,7 @@
 # Scripting Exercise Repository
 
+NOTE: THIS REPO HAS MOVED TO https://github.com/ucll-scripting/exercises!
+
 ## About This Course
 
 This course teaches you how to write small scripts that automate tasks.
